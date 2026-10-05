@@ -1,209 +1,159 @@
-# Awesome-Text-Editor
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Text-Editor"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Text-Editor?style=flat-square" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Text-Editor/fork"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Text-Editor?style=flat-square" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Text-Editor/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Text-Editor?style=flat-square" alt="Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Text-Editor/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Text-Editor?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-## Top Text Editor Ecosystem
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Text Editor Banner" width="100%" />
+</p>
 
+# ⚡ Awesome Text Editors: The Definitive Guide to Code & Text Editing Tools 📝
 
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d2370f71ed2232711900115049abf68045958611/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+> 🚀 **A curated directory of top commercial SaaS text editing platforms, high-performance GUI code editors, modal environments, and open-source text processing utilities.**
 
-*Focused on Code Editing, Modal Workflows & Extensible Editing Environments*  
+Whether you are seeking lightweight notepad alternatives, high-speed Rust-native editors like Zed and Lapce, terminal modal workflow tools such as Vim, Neovim, and Helix, or extensible IDE environments like Visual Studio Code, this list provides comprehensive technical breakdowns, pricing details, and star metrics.
 
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial text editors** and **open-source projects** that provide powerful editing environments — from lightweight notepad replacements to fully extensible code editors and terminal-based modal editors.
-
-
-
-**Examples** include Windows Notepad, Notepad++, Sublime Text, Visual Studio Code, UltraEdit, BBEdit, Atom, TextMate, Vim, and GNU Emacs (the category leaders).
-
-
-
-**Open-source emphasis**: Text editing is one of the strongest open-source domains. **VS Code**, **Vim**, **Neovim**, **Emacs**, and **Kate** collectively power millions of developers worldwide, with **Zed** and **Lapce** emerging as Rust-based performance-focused alternatives. **Micro** and **Helix** bring modern UX to terminal editing. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Sublime Text](https://www.sublimetext.com/)**  
-
-  Legendary proprietary editor known for speed, multiple cursors, and the Command Palette. **One-time purchase** ($99) with free evaluation. **The editor that inspired VS Code's UX** — still beloved for its performance and minimalism .
-
-
-
-- **[UltraEdit](https://www.ultraedit.com/)**  
-
-  Powerhouse commercial editor with hex editing, large file handling, macros, scripting, and FTP/SFTP support. **Subscription-based**. Popular in enterprise and data processing workflows .
-
-
-
-- **[BBEdit](https://www.barebones.com/products/bbedit/)**  
-
-  macOS-only professional text editor since 1992. **Free mode available** with paid Pro features. **The standard for macOS developers** wanting native performance and deep text processing .
-
-
-
-- **[TextMate](https://macromates.com/)**  
-
-  macOS editor that pioneered snippets, bundles, and the concept of scoped editing. **Open-sourced in 2012** but development has slowed. **Historically influential** — inspired Sublime Text and VS Code grammars .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Visual Studio Code](https://github.com/microsoft/vscode)**  
-
-  **The most widely used code editor in the world**, MIT licensed with 160,000+ GitHub stars . Built with Electron and TypeScript. **Extensions ecosystem with 50,000+ plugins**, integrated terminal, Git, debugging, and IntelliSense . **VS Code OSS** is the open-source core; Microsoft's branded builds add telemetry and proprietary marketplace access. **Note**: The marketplace and some Microsoft-specific extensions are proprietary . **The de facto standard for modern development** — free and cross-platform.
-
-
-
-- **[Vim](https://github.com/vim/vim)**  
-
-  **The legendary modal text editor**, charityware licensed with 38,000+ GitHub stars . Terminal-based with incredibly efficient keyboard-driven editing. **Available on virtually every Unix-like system** — often pre-installed . Highly configurable via vimrc and thousands of plugins. **Steep learning curve but unmatched editing speed** once mastered .
-
-
-
-- **[Neovim](https://github.com/neovim/neovim)**  
-
-  **Modern refactor of Vim** with Lua scripting, built-in LSP, treesitter, and async plugin architecture . Apache-2.0 licensed with 85,000+ GitHub stars . **The preferred choice for new Vim users** — better defaults, active development, and a thriving plugin ecosystem (lazy.nvim, telescope, nvim-cmp) . **Turns Vim into a full IDE** without Electron overhead.
-
-
-
-- **[GNU Emacs](https://github.com/emacs-mirror/emacs)**  
-
-  **The extensible, customizable, self-documenting editor**, GPL licensed with 4,500+ GitHub stars (mirror) . **More than an editor — a Lisp environment** that happens to edit text. Org-mode, Magit, Dired, and thousands of packages make it a complete workflow platform . **The most extensible editor ever created** — but requires investment to configure .
-
-
-
-- **[Zed](https://github.com/zed-industries/zed)**  
-
-  **High-performance, multiplayer code editor** written in Rust, GPL-3.0 licensed with 60,000+ GitHub stars . Built by the creators of Atom and Tree-sitter. **GPU-accelerated rendering**, built-in collaboration, and AI integration . **The fastest modern editor** — native performance without Electron . Available on macOS and Linux; Windows in development.
-
-
-
-- **[Lapce](https://github.com/lapce/lapce)**  
-
-  **Lightning-fast and powerful code editor written in Rust**, Apache-2.0 licensed with 35,000+ GitHub stars . **Built-in LSP, remote development, Vim mode, and WASI plugin system** . Custom GPU-accelerated renderer using Floem UI toolkit . **The most feature-complete Rust editor** after Zed — smaller community but rapid development .
-
-
-
-- **[Kate](https://github.com/KDE/kate)**  
-
-  **KDE's advanced text editor**, LGPL-2.0 licensed . **Multi-document interface, session management, LSP support, and extensive plugin ecosystem** . **The best GUI editor for KDE Plasma** — integrates with Dolphin and Konsole. Available on Linux, Windows, and macOS .
-
-
-
-- **[Micro](https://github.com/zyedidia/micro)**  
-
-  **Modern and intuitive terminal-based text editor**, MIT licensed with 25,000+ GitHub stars . **Feels like Nano but works like a GUI editor** — familiar keybindings (Ctrl+S, Ctrl+Q), mouse support, and syntax highlighting . Single binary with no dependencies . **The best choice for users wanting terminal editing without Vim's learning curve** .
-
-
-
-- **[Helix](https://github.com/helix-editor/helix)**  
-
-  **Post-modern modal text editor**, MPL-2.0 licensed with 35,000+ GitHub stars . **Built-in LSP, treesitter, and multiple selections** by default . **Kakoune-inspired selection-first workflow** — different from Vim but logical . **The most promising Vim alternative** for users wanting modal editing with modern defaults .
-
-
-
-- **[Lite XL](https://github.com/lite-xl/lite-xl)**  
-
-  **Lightweight, fast, and simple code editor**, MIT licensed with 5,000+ GitHub stars . Written in C and Lua with **minimal resource usage** . **The spiritual successor to Atom** — extensible via Lua plugins without Electron overhead .
-
-
-
-- **[CudaText](https://github.com/Alexey-T/CudaText)**  
-
-  **Cross-platform text editor** with syntax highlighting for 300+ languages, code folding, and extensive plugin support . **Free and open-source** with a large feature set comparable to Notepad++ .
-
-
-
-- **[Geany](https://github.com/geany/geany)**  
-
-  **Lightweight IDE** using GTK+ with syntax highlighting, code completion, and plugin support . **The classic Linux text editor/IDE hybrid** — fast, stable, and minimal dependencies .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Notepad++** — Windows-only open-source editor (GPL) with syntax highlighting, macros, and plugin ecosystem. **The standard Windows notepad replacement** .
-
-- **Gedit** — GNOME's text editor with plugin support, now largely replaced by GNOME Text Editor .
-
-- **GNOME Text Editor** — Modern GNOME editor with session restore, search, and clean interface .
-
-- **Kakoune** — Modal editor with multiple selections and orthogonal design, inspiring Helix .
-
-- **amp** — Terminal-based modal editor written in Rust .
-
-- **Xi Editor** — Experimental editor with rope data structure and modern architecture (development slowed).
-
-
-
-**Frameworks for building custom text editing solutions**: Choose based on workflow. **VS Code** for the largest extension ecosystem and general-purpose development . **Neovim** for terminal-based modal editing with modern Lua configuration and LSP . **Emacs** for maximum extensibility and workflow integration via Lisp . **Zed** or **Lapce** for Rust-native performance without Electron . **Micro** for terminal editing with familiar keybindings . **Helix** for modern modal editing with selection-first workflow . **Kate** for KDE-native GUI editing . Note that true commercial editors like Sublime Text and BBEdit offer polished experiences with one-time purchase, but open-source alternatives match or exceed their capabilities for most workflows .
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Text editors handle source code, configuration files, and potentially sensitive data. Self-hosted or local editors generally keep data on-device, but cloud-synced settings or AI features may transmit data externally. **Review privacy settings before use**.
-
-- **VS Code's marketplace and some Microsoft extensions are proprietary** — the OSS core is MIT licensed, but the full experience includes closed components . **VSCodium** provides a fully open-source build.
-
-- **Modal editors (Vim, Neovim, Helix, Kakoune) require learning investment** — the productivity gains are real but not immediate .
-
-- The open-source ecosystem provides strong editing, extension, and performance foundations across terminal and GUI environments, but **proprietary polish, vendor support, and integrated AI features** remain primarily commercial offerings.
-
-
+**Last updated: October 2026** 📅
 
 ---
 
+## 📑 Table of Contents
+- [📊 Market Overview & Industry Analysis](#-market-overview--industry-analysis)
+- [💼 SaaS & Commercial Hosted Platforms](#-saas--commercial-hosted-platforms)
+- [⭐ Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
 
+---
 
-**Made for developers, writers, system administrators, and anyone who lives in a text editor.**  
+## 📊 Market Overview & Industry Analysis 📈
 
-Let's make text editing more open, transparent, and powerful.
+> **Market Size & Structure**: The global developer tools and text editing software market is estimated at **~$5.2 Billion USD**, with a projected CAGR of 11.5%. The sector is **highly concentrated at the developer tier** (dominated by Microsoft's VS Code ecosystem) while maintaining a **moderately fragmented long-tail niche market** for specialized GUI software, high-performance modal workflows, and security-hardened enterprise text editors.
+
+---
+
+## 💼 SaaS & Commercial Hosted Platforms 🌐
+
+Below is a curated breakdown of major commercial, proprietary, and paid text editor applications sorted in descending order by parent company market revenue / enterprise scale.
+
+| Product 🛠️ | Starting Price 💰 | Free Tier Limit / Trial ⏳ | Enterprise Scale / Company Size 🏢 | Description & Core Strengths 💡 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[UltraEdit](https://www.ultraedit.com/)** | $99.95 / year (or $189.95 perpetual) | 7-day fully functional free trial (no credit card required) | Subsidiary of IDERA, Inc. (~$250M+ Parent Revenue) | Heavy-duty commercial text and hex editor designed for large file handling, column editing, macros, and SFTP. |
+| **[Sublime Text](https://www.sublimetext.com/)** | $99.00 one-time license (includes 3 years of updates) | Evaluation mode with unlimited time (periodic reminder pop-ups) | Sublime HQ Pty Ltd (Privately held, ~$5M+ Est. Annual Revenue) | Ultra-fast cross-platform editor that pioneered multiple cursors and the Command Palette. |
+| **[BBEdit](https://www.barebones.com/products/bbedit/)** | $59.99 perpetual license ($4.99/mo or $49.99/yr subscription) | 30-day full trial, switches to Free Mode forever (basic features retained) | Bare Bones Software (~$3M–$5M Est. Annual Revenue) | Veteran macOS-exclusive text and code editor offering native performance and deep text transformation options. |
+| **[TextMate](https://macromates.com/)** | Free & Open-Source (GPL-3.0) | Completely free for all personal and commercial use | MacroMates Ltd (Micro-entity / Open-source project) | Historically influential macOS editor that introduced snippets, scoped bundles, and modern syntax grammars. |
+
+---
+
+## ⭐ Open-Source GitHub Projects 🔓
+
+The open-source text editing ecosystem contains some of the most star-studded repositories on GitHub. Listed below in descending order by GitHub star count:
+
+1. **[Visual Studio Code](https://github.com/microsoft/vscode)**  
+   [![Stars](https://img.shields.io/github/stars/microsoft/vscode?style=social&color=white)](https://github.com/microsoft/vscode/stargazers) 🌟  
+   **The world's most popular code editor**, licensed under MIT with an enormous ecosystem. Built with TypeScript and Electron, offering 50,000+ extensions, integrated terminal, Git integration, and remote development capabilities. 💻
+
+2. **[Neovim](https://github.com/neovim/neovim)**  
+   [![Stars](https://img.shields.io/github/stars/neovim/neovim?style=social&color=white)](https://github.com/neovim/neovim/stargazers) 🌟  
+   **Hyperextensible Vim-based text editor** powered by Lua, native LSP, and Treesitter support. Designed for developers who demand keyboard efficiency without sacrificing modern IDE features. ⚡
+
+3. **[Zed](https://github.com/zed-industries/zed)**  
+   [![Stars](https://img.shields.io/github/stars/zed-industries/zed?style=social&color=white)](https://github.com/zed-industries/zed/stargazers) 🌟  
+   **High-performance Rust-native code editor** crafted by the creators of Atom and Tree-sitter. Features GPU-accelerated rendering, real-time multiplayer code sharing, and AI integration. 🦀
+
+4. **[Helix](https://github.com/helix-editor/helix)**  
+   [![Stars](https://img.shields.io/github/stars/helix-editor/helix?style=social&color=white)](https://github.com/helix-editor/helix/stargazers) 🌟  
+   **Post-modern terminal modal text editor** written in Rust with built-in selection-first editing (Kakoune-inspired), LSP completion, and zero configuration setup out-of-the-box. 🌀
+
+5. **[Vim](https://github.com/vim/vim)**  
+   [![Stars](https://img.shields.io/github/stars/vim/vim?style=social&color=white)](https://github.com/vim/vim/stargazers) 🌟  
+   **The iconic modal text editor** available on nearly every Unix-like system. Lightweight, charityware-licensed, keyboard-driven, and highly configurable via `.vimrc`. ⌨️
+
+6. **[Lapce](https://github.com/lapce/lapce)**  
+   [![Stars](https://img.shields.io/github/stars/lapce/lapce?style=social&color=white)](https://github.com/lapce/lapce/stargazers) 🌟  
+   **Lightning-fast GUI code editor written in Rust**, featuring native GPU rendering, WASI plugin architecture, built-in terminal, and remote SSH environment access. ⚡
+
+7. **[VSCodium](https://github.com/VSCodium/vscodium)**  
+   [![Stars](https://img.shields.io/github/stars/VSCodium/vscodium?style=social&color=white)](https://github.com/VSCodium/vscodium/stargazers) 🌟  
+   **Community-driven telemetry-free binary distribution** of Microsoft’s `vscode` repository, built cleanly under MIT licensing without proprietary tracking code. 🛡️
+
+8. **[Micro](https://github.com/zyedidia/micro)**  
+   [![Stars](https://img.shields.io/github/stars/zyedidia/micro?style=social&color=white)](https://github.com/zyedidia/micro/stargazers) 🌟  
+   **Modern terminal-based text editor** designed to bring intuitive, GUI-like keybindings (Ctrl-C, Ctrl-V, Ctrl-S), mouse interaction, and plugin extensibility to the command line. 🖥️
+
+9. **[Notepad++](https://github.com/notepad-plus-plus/notepad-plus-plus)**  
+   [![Stars](https://img.shields.io/github/stars/notepad-plus-plus/notepad-plus-plus?style=social&color=white)](https://github.com/notepad-plus-plus/notepad-plus-plus/stargazers) 🌟  
+   **The gold-standard free source code editor for Windows**, written in C++ for maximum performance, minimal resource usage, and extensive plugin customization. 📄
+
+10. **[Kakoune](https://github.com/mawww/kakoune)**  
+    [![Stars](https://img.shields.io/github/stars/mawww/kakoune?style=social&color=white)](https://github.com/mawww/kakoune/stargazers) 🌟  
+    **Selection-first modal text editor** built around orthogonal design principles and interactive selection matching that inspired modern terminal editors like Helix. 🎯
+
+11. **[Lite XL](https://github.com/lite-xl/lite-xl)**  
+    [![Stars](https://img.shields.io/github/stars/lite-xl/lite-xl?style=social&color=white)](https://github.com/lite-xl/lite-xl/stargazers) 🌟  
+    **Lightweight, fast GUI code editor** written in C and Lua, serving as a minimal and responsive alternative for systems with constrained hardware resources. 🪶
+
+12. **[GNU Emacs Mirror](https://github.com/emacs-mirror/emacs)**  
+    [![Stars](https://img.shields.io/github/stars/emacs-mirror/emacs?style=social&color=white)](https://github.com/emacs-mirror/emacs/stargazers) 🌟  
+    **The infinitely extensible self-documenting Lisp environment**, famous for Org-mode, Magit Git interface, and complete workflow customization capabilities. 🦄
+
+13. **[Pulsar Edit](https://github.com/pulsar-edit/pulsar)**  
+    [![Stars](https://img.shields.io/github/stars/pulsar-edit/pulsar?style=social&color=white)](https://github.com/pulsar-edit/pulsar/stargazers) 🌟  
+    **Hyper-hackable community-maintained continuation of Atom editor**, preserving modern web-technology extensibility and package manager compatibility. ⚛️
+
+14. **[Geany](https://github.com/geany/geany)**  
+    [![Stars](https://img.shields.io/github/stars/geany/geany?style=social&color=white)](https://github.com/geany/geany/stargazers) 🌟  
+    **Small and fast GTK+ integrated text editor**, offering code completion, syntax highlighting, and project management with minimal operating system dependencies. 🧰
+
+15. **[CudaText](https://github.com/Alexey-T/CudaText)**  
+    [![Stars](https://img.shields.io/github/stars/Alexey-T/CudaText?style=social&color=white)](https://github.com/Alexey-T/CudaText/stargazers) 🌟  
+    **Cross-platform text editor** written in Lazarus, equipped with syntax highlighting for 300+ languages, JSON configuration support, and Python plugin scripting. 🧩
+
+16. **[Kate Editor](https://github.com/KDE/kate)**  
+    [![Stars](https://img.shields.io/github/stars/KDE/kate?style=social&color=white)](https://github.com/KDE/kate/stargazers) 🌟  
+    **KDE’s multi-document GUI editor**, featuring session restoration, integrated terminal split panels, LSP client integration, and native Linux desktop support. 🐧
+
+---
+
+## 🤝 How to Contribute 🛠️
+
+Contributions are welcome! Please follow these simple guidelines:
+1. **Fork the repository** 🍴
+2. **Add or update an entry** in `README.md` maintaining table formatting or star badge styling.
+3. Ensure the project is factually described with valid GitHub links.
+4. **Submit a Pull Request** with a clear explanation of your change. 🚀
+
+---
+
+## 💖 Support & Sponsorship ☕
+
+If you found this curated list helpful for discovering software tools and text editors, please consider supporting the project!
+
+- ⭐ **Star this repository** to help others discover it!
+- 🔀 **Fork it** to contribute new tools and edits.
+- 📣 **Share it** with fellow developers, writers, and system administrators.
+- ☕ **Buy me a coffee / Sponsor on GitHub**: [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007) ❤️
+
+Thank you for your support and happy editing! 🎉
+
+---
+
+## 📈 Star History 📊
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Text-Editor&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Text-Editor&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer 🔒
+
+- This list is **community-curated** for educational and reference purposes.
+- Always inspect licensing terms, data privacy controls, and telemetry settings before deploying editors within sensitive corporate or cloud environments.
+- All trademarks and brand names belong to their respective owners.
