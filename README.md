@@ -55,7 +55,7 @@ Below is a curated breakdown of major commercial, proprietary, and paid text edi
 
 ## ⭐ Open-Source GitHub Projects 🔓
 
-The open-source text editing ecosystem contains some of the most star-studded repositories on GitHub. Listed below in descending order by GitHub star count:
+The open-source text editing ecosystem contains some of the most star-studded repositories on GitHub. Listed below in descending order by GitHub Stars_Count:
 
 1. **[Visual Studio Code](https://github.com/microsoft/vscode)**  
    [![Stars](https://img.shields.io/github/stars/microsoft/vscode?style=social&color=white)](https://github.com/microsoft/vscode/stargazers) 🌟  
@@ -127,7 +127,7 @@ The open-source text editing ecosystem contains some of the most star-studded re
 
 Contributions are welcome! Please follow these simple guidelines:
 1. **Fork the repository** 🍴
-2. **Add or update an entry** in `README.md` maintaining table formatting or star badge styling.
+2. **Add or update an entry** in `README.md` maintaining table formatting or Stars_Badge styling.
 3. Ensure the project is factually described with valid GitHub links.
 4. **Submit a Pull Request** with a clear explanation of your change. 🚀
 
